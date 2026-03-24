@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,26 +8,41 @@
     <link rel="stylesheet" href="Listen!.css" />
     <script src="Listen!.js" defer></script>
   </head>
+
   <body>
+    <header>
     <h1>Listen!</h1>
-    <p>DrückE auf PLAY und höre den Akkord raus:</p>
+    <div class="beschreibung">
+    <p>Press PLAY and listen to the fucking chord:</p>
+    </div>
+    <div>
+      <label for="ccSwitch">Custom Mode !</label>
+      <input id="ccSwitch" type="checkbox">
+    </div>
+  </header>
+
+    <main>
+      <div class="playButton">
     <button onclick="playSound()">PLAY</button>
-    <br />
-    <br />
-    <button onclick="checkeAkkord(0)">A-Moll</button>
-    <br />
-    <button onclick="checkeAkkord(1)">C-Dur</button>
-    <br />
-    <button onclick="checkeAkkord(2)">D-Dur</button>
-    <br />
-    <button onclick="checkeAkkord(3)">D-Moll</button>
-    <br />
-    <button onclick="checkeAkkord(4)">E-Moll</button>
-    <br />
-    <button onclick="checkeAkkord(5)">F-Dur</button>
-    <br />
-    <button onclick="checkeAkkord(6)">G-Dur</button>
-    <br />
+    </div>
+
+    <div class="coinCounter" id="coinCounter">
+      <p>Coin Counter: </p>
+    </div>
+     <div class="akkordContainer">
+    <button class="akk" data-index="0">A-Moll</button> 
+    <button class="akk" data-index="1">C-Dur</button>
+    <button class="akk" data-index="2">D-Dur</button>
+    <div id= "dMollAkk" class="akk" data-index="3"></div>
+    <div id= "eMollAkk" class="akk" data-index="4"></div>
+    <div id= "fDurAkk" class="akk" data-index="5"></div>
+    <div id= "gDurAkk" class="akk" data-index="6"></div>
+   </div>
+
+    <div class="ergebnisButton">
     <p id="checkAntwort"></p>
+    </div>
+  </main>
   </body>
+
 </html>

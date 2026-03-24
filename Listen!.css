@@ -1,0 +1,107 @@
+:root {
+
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: rgba(17,17,17,.7);
+
+  --accent: rgba(167, 139, 250, 0.16);
+  --accent-strong: rgba(167, 139, 250, 0.30);
+  --border: 1px solid rgba(167, 139, 250, 0.38);
+  --hover: rgba(167, 139, 250, 0.26);
+  --ring: 0 0 0 4px rgba(167, 139, 250, 0.25);
+
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 18px;
+
+  --s-2: .5rem;
+  --s-3: .75rem;
+  --s-4: 1rem;
+  --s-6: 1.5rem;
+
+  --shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+button {
+    border-radius: 15%;
+    background: var(--accent);
+    border: var(--borderStyleAccent);
+}
+button{
+  border-radius: var(--r-md);
+  background: linear-gradient(180deg, var(--accent), rgba(0,0,0,0));
+  border: var(--border);
+  color: var(--text);
+  padding: .55rem .85rem;
+  cursor: pointer;
+  transition: background .2s ease, transform .08s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+button:hover{
+  background: linear-gradient(180deg, var(--hover), rgba(0,0,0,0));
+  border-color: rgba(0, 194, 255, 0.55);
+}
+
+button:active{
+  transform: translateY(1px);
+}
+
+button:focus-visible{
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+header{
+  max-width: 900px;
+  margin: var(--s-6) auto;
+  padding: var(--s-6);
+  border-radius: var(--r-lg);
+  border: var(--border);
+  background: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+h1{
+  margin: 0 0 var(--s-3);
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.beschreibung {
+text-align: center;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+button {
+     padding: 0.1rem;
+}
+.playButton {
+    font-size: 30px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 2rem;
+    
+}
+.playButton button {
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+.akkordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
