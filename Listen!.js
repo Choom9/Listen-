@@ -1,9 +1,9 @@
 let akkorde = [
     new Audio("SoundsAkkorde/aMoll.mp3"), new Audio("SoundsAkkorde/cDur.mp3"), new Audio("SoundsAkkorde/dDur.mp3"), new Audio("SoundsAkkorde/dMoll.mp3"), new Audio("SoundsAkkorde/eMoll.mp3"), new Audio("SoundsAkkorde/fDur.mp3"), new Audio("SoundsAkkorde/gDur.mp3")
 ];
-let awardSound = new Audio("awardSound.mp3");
-let lossSound = new Audio("loss2.mp3");
-let levelUpSound = new Audio("LevelUP1.mp3")
+let awardSound = new Audio("SoundsEffekte/awardSound.mp3");
+let lossSound = new Audio("SoundsEffekte/loss2.mp3");
+let levelUpSound = new Audio("SoundsEffekte/LevelUP1.mp3")
 
 let startBorder = 0
 
