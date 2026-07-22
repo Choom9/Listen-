@@ -164,8 +164,8 @@ let tester = document.getElementById("tester")
 
 
 switchBoxHtml.addEventListener("change", function () {
- if (window.location.pathname === "/Listen!.html") {window.location.href = "Listen!Custom.html" }
- else if (window.location.pathname === "/Listen!Custom.html") {window.location.href = "Listen!.html" }
+ if (window.location.pathname === "/Listen!/Listen!.html") {window.location.href = "/Listen!/Listen!Custom.html" }
+ else if (window.location.pathname === "/Listen!/Listen!Custom.html") {window.location.href = "/Listen!/Listen!.html" }
 })
 
 if (window.location.pathname === "/Listen!.html") {switchBoxHtml.checked = false}

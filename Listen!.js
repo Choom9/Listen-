@@ -1,5 +1,5 @@
 let akkorde = [
-    new Audio("aMoll.mp3"), new Audio("cDur.mp3"), new Audio("dDur.mp3"), new Audio("dMoll.mp3"), new Audio("eMoll.mp3"), new Audio("fDur.mp3"), new Audio("gDur.mp3")
+    new Audio("SoundsAkkorde/aMoll.mp3"), new Audio("SoundsAkkorde/cDur.mp3"), new Audio("SoundsAkkorde/dDur.mp3"), new Audio("SoundsAkkorde/dMoll.mp3"), new Audio("SoundsAkkorde/eMoll.mp3"), new Audio("SoundsAkkorde/fDur.mp3"), new Audio("SoundsAkkorde/gDur.mp3")
 ];
 let awardSound = new Audio("awardSound.mp3");
 let lossSound = new Audio("loss2.mp3");
@@ -24,6 +24,7 @@ let playSound = function() {
         akkorde[akkzahl].currentTime = 0;
         akkorde[akkzahl].play();
         document.getElementById("checkAntwort").innerHTML = "";
+        console.log(akkorde[akkzahl]);
     }
     else {
         reAkkZahl();
@@ -146,8 +147,8 @@ let seitenZustand = 0
  }
  
 switchBoxHtml.addEventListener("change", function () {
- if (window.location.pathname === "/Listen!.html") {window.location.href = "Listen!Custom.html" }
- else if (window.location.pathname === "/Listen!Custom.html") {window.location.href = "Listen!.html" }
+ if (window.location.pathname === "/Listen!/Listen!.html") {window.location.href = "/Listen!/Listen!Custom.html" }
+ else if (window.location.pathname === "/Listen!Custom.html") {window.location.href = "/Listen!/Listen!.html" }
 })
 
 // Wichtig! JS für custom verlagern 
