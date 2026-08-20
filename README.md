@@ -4,6 +4,7 @@ Das ganze fing an mit einem konkreten Problem: Ich wollte lernen mit meinem Geh�
 Es gibt einige Apps, die Übungen zu sowas Ähnlichem anbieten, aber viele von ihnen sind überladen mit Funktionen, die ich nicht brauche und
 zum Teil versehen mit PayWalls. Deswegen habe ich "Listen!" erstellt. Außerdem wollte ich meine Programmierfähigkeiten verbessern.
 
+## Demo
 xxx
 
 ## Nutzung von KI
