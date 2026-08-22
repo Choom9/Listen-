@@ -25,7 +25,10 @@ Beim Level Mode gibt es im Akkord "Pool" nur 3 Akkorde die abgespielt werden kö
 Beim Custom Mode kann man sich aussuchen welche Akkorde im Akkord "Pool" sind. 
 
 
-## Ordner Struktur
+## Dateien/ Ordner Struktur
+
+Für den "Level Mode" sind die Dateien Listen!.html, Listen!.css und Listen!.js zuständig. 
+Für den "Custom Mode" Listen!Custom.js und Listen!Custom.html. 
 
 
 
