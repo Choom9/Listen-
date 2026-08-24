@@ -1,9 +1,9 @@
 let akkorde = [
-    new Audio("SoundsAkkorde/aMoll.mp3"), new Audio("SoundsAkkorde/cDur.mp3"), new Audio("SoundsAkkorde/dDur.mp3"), new Audio("SoundsAkkorde/dMoll.mp3"), new Audio("SoundsAkkorde/eMoll.mp3"), new Audio("SoundsAkkorde/fDur.mp3"), new Audio("SoundsAkkorde/gDur.mp3")
+    new Audio("../SoundsAkkorde/aMoll.mp3"), new Audio("../SoundsAkkorde/cDur.mp3"), new Audio("../SoundsAkkorde/dDur.mp3"), new Audio("../SoundsAkkorde/dMoll.mp3"), new Audio("../SoundsAkkorde/eMoll.mp3"), new Audio("../SoundsAkkorde/fDur.mp3"), new Audio("../SoundsAkkorde/gDur.mp3")
 ];
-let awardSound = new Audio("SoundsEffekte/awardSound.mp3");
-let lossSound = new Audio("SoundsEffekte/loss2.mp3");
-let levelUpSound = new Audio("SoundsEffekte/LevelUP1.mp3")
+let awardSound = new Audio("../SoundsEffekte/awardSound.mp3");
+let lossSound = new Audio("../SoundsEffekte/loss2.mp3");
+let levelUpSound = new Audio("../SoundsEffekte/LevelUP1.mp3")
 
 let startBorder = 0
 
@@ -13,7 +13,7 @@ let akkzahl
 let reAkkZahl = function () {
     akkzahl = Math.floor(Math.random()*Math.max(1, akkorde.length-levelUpDiff))
 }
-// Ja index geht nur von 0 bis 6 aber durch floor macht sinn. 7 wird nie erreciht weil math.floor abrundet und höchstens (fast) 7 rauskommt aber immer unter 7 weil math.random 1 exklsive hat 
+// Ja index geht nur von 0 bis 6 aber durch floor macht es sinn. 7 wird nie erreciht weil math.floor abrundet und höchstens (fast) 7 rauskommt aber immer unter 7 weil math.random 1 exklusive hat 
 reAkkZahl();
 
 // Kernlogik: akkzahl spiegelt index des akkorde arrays wieder 
@@ -133,7 +133,7 @@ let levelUpVari
    
  
  let switchBoxHtml = document.getElementById("ccSwitch")
- // Was noch fehlt ist, dass der checked zustand tatsählcih zu sehen ist 
+ // Was noch fehlt ist, dass der checked zustand tatsählich zu sehen ist 
  
  // Logik klappt wenn man annimt, dass der anfangszusatand ist: Kein Check; Kein chek = Normaler Modus
 // false = Kein Custom mode 
@@ -147,20 +147,21 @@ let seitenZustand = 0
  }
  
 switchBoxHtml.addEventListener("change", function () {
- if (window.location.pathname === "/Listen!/Listen!.html") {window.location.href = "/Listen!/Listen!Custom.html" }
- else if (window.location.pathname === "/Listen!Custom.html") {window.location.href = "/Listen!/Listen!.html" }
+ if (window.location.pathname === "/Listen!Level/Listen!.html") {window.location.href = "../Listen!Custom/Listen!Custom.html" }
+ else if (window.location.pathname === "/Listen!Custom/Listen!Custom.html") {window.location.href = "../Listen!Level/Listen!.html" }
 })
+
+console.log(window.location.pathname);
 
 // Wichtig! JS für custom verlagern 
 if (window.location.pathname === "/Listen!.html") {switchBoxHtml.checked = false}
 else if (window.location.pathname === "/Listen!Custom.html") {switchBoxHtml.checked = true}
  // Custom Mode doch auf neue seite verlagern 
 
-// Also KollegaH: 1. den eintrag richtig und falsch löschen. 2. Ein Art Belohungssound einbauen bei rixhtigen akkord; 3. eine Art Münz sammel ding daraus machen, jede richtige Antwort eine Münze 
+// Also: 1. den eintrag richtig und falsch löschen. 2. Ein Art Belohungssound einbauen bei rixhtigen akkord; 3. eine Art Münz sammel ding daraus machen, jede richtige Antwort eine Münze 
 // Möglichkeit sich akkorde auszusuchen die erscheinen sollen (extra seite)
 // Ansonsten immer bei 10 Münzen neuer Akkord (standard)
-// Belohungsshop 
-// spenden Link 
+// Belohungsshop?
 // verwendete Sounds normalisieren für gleiche Lautstärke
 // wenn von 11 auf 10 weil eins falsch nicht wieder Level UP Sound 
 //Custom Mode Hin und zurück machen

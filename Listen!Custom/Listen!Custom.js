@@ -1,23 +1,23 @@
 
-const aMollCm = new Audio("aMoll.mp3");
+const aMollCm = new Audio("../SoundsAkkorde/aMoll.mp3");
 aMollCm.key = "aMollCm" //FUCKING LÖSUNG 
 
-const cDurCm = new Audio("cDur.mp3");
+const cDurCm = new Audio("../SoundsAkkorde/cDur.mp3");
 cDurCm.key = "cDurCm"
 
-const dDurCm = new Audio("dDur.mp3");
+const dDurCm = new Audio("../SoundsAkkorde/dDur.mp3");
 dDurCm.key = "dDurCm"
 
-const dMollCm = new Audio("dMoll.mp3");
+const dMollCm = new Audio("../SoundsAkkorde/dMoll.mp3");
 dMollCm.key = "dMollCm"
 
-const eMollCm = new Audio("eMoll.mp3");
+const eMollCm = new Audio("../SoundsAkkorde/eMoll.mp3");
 eMollCm.key = "eMollCm"
 
-const fDurCm = new Audio("fDur.mp3");
+const fDurCm = new Audio("../SoundsAkkorde/fDur.mp3");
 fDurCm.key = "fDurCm"
 
-const gDurCm = new Audio("gDur.mp3");
+const gDurCm = new Audio("../SoundsAkkorde/gDur.mp3");
 gDurCm.key = "gDurCm"
 
 let akkordeCm = []
@@ -27,8 +27,8 @@ let gedrücktButton
 
 
 
-let awardSound = new Audio("awardSound.mp3");
-let lossSound = new Audio("loss2.mp3");
+let awardSound = new Audio("../SoundsEffekte/awardSound.mp3");
+let lossSound = new Audio("../SoundsEffekte/loss2.mp3");
 // weiteren sound bei Switch zu custom mode und zurürck
 //Cm steht für Custom Mode 
 //System funktiioniert mit Array Nummerierung, Amoll ist auf stelle 0 !A moll=0
@@ -82,13 +82,6 @@ let playSound = function() {
 // besser: alle 
 
 
-
-//const akkButCol = getComputedStyle(document.querySelector(.akk)).backgroundColor";
-;// Der scheiss existiert beim laden nicht, erst beim checken der boxen 
-// Das hier um die Zahlen herauszufinden aus den Buttons die gecheckt werden
-//Und dann wird die zahl verglichen mit ehemals akkzahl
-//AkkbutIndi ist nur um nackground calour zu ändern 
-// Logik passt nicht mehr weil Die reiehnfolge des gespielten Akkord arrays zufällig ist 
 let rAkkord = null
 
 /*akkButt.forEach (akkButIndi => akkButIndi.addEventListener ("click", () => {
@@ -103,7 +96,7 @@ onsole.log("k4", akkButIndi, "k4")
 
 //22.02.25: akkButIndi ist richtig, aber irgendwie fehlt da data sound 
 // 21.02.26: HIER IST DAS PROBLEM: akkButIndi.dataset.sound ist UNDEFINED 
-// Problem: akkButIndi ist undefined, weil akkButt beim Laden der. Seite leer ist
+// Problem: akkButIndi ist undefined, weil akkButt beim Laden der Seite leer ist
 
     // akkIndex ist rAkkord 
 /*
@@ -112,7 +105,6 @@ akkzahl entscheidet welcher akkord gespielt wird
 Davor wird anhand der checkboxen das array gebaut fürs akkorde spielen 
 akkzahl wird eingesetzt als Index des akkordes der spielen soll
 damit akkzahl = ein spezfischer akkord
-HÄÄÄÄÄ 
 */
 
 let switchBoxHtml = document.getElementById("ccSwitch")
@@ -164,8 +156,8 @@ let tester = document.getElementById("tester")
 
 
 switchBoxHtml.addEventListener("change", function () {
- if (window.location.pathname === "/Listen!/Listen!.html") {window.location.href = "/Listen!/Listen!Custom.html" }
- else if (window.location.pathname === "/Listen!/Listen!Custom.html") {window.location.href = "/Listen!/Listen!.html" }
+ if (window.location.pathname === "/Listen!Level/Listen!.html") {window.location.href = "../Listen!Custom/Listen!Custom.html" }
+ else if (window.location.pathname === "/Listen!Custom/Listen!Custom.html") {window.location.href = "../Listen!Level/Listen!.html" }
 })
 
 if (window.location.pathname === "/Listen!.html") {switchBoxHtml.checked = false}
@@ -286,11 +278,5 @@ dDurCheckbox.addEventListener("change", function ()
 
 } )
 
-  // Mein AKkord destroyer geht nicht
-  // JETZT SCHON !
+ 
 
-console.log("Wie bidde", "etzalla")
-
-tester
- // Event Listener ? 
- // Ganzes Checke Akkord und play akkord und Akkord Index anpassen an angecheckhte Checkboxen 
