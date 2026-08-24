@@ -27,8 +27,8 @@ Beim Custom Mode kann man sich aussuchen welche Akkorde im Akkord "Pool" sind.
 
 ## Dateien/ Ordner Struktur
 
-Für den "Level Mode" sind die Dateien Listen!.html, Listen!.css und Listen!.js zuständig. 
-Für den "Custom Mode" Listen!Custom.js und Listen!Custom.html. 
+Für den "Level Mode" ist der Ordner "Listen!Level" zuständig. 
+Für den "Custom Mode" der Ordner "Listen!Custom". 
 Beide Modi teilen sich eine CSS Datei und die Ordner in denen die Sounds für die Akkorde und Effekte enthalten sind.
 
 
