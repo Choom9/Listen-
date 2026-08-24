@@ -35,13 +35,16 @@ Beide Modi teilen sich eine CSS Datei und die Ordner in denen die Sounds für di
 ## Benutzte Sprachen
 
 HTML
+
 CSS
+
 JavaScript
 
 
 ## Starten
 
 Projekt herunterladen
+
 Listen!.html mit Live Server öffnen
 
 ## Was ich gelernt habe 
