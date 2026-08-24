@@ -29,7 +29,7 @@ Beim Custom Mode kann man sich aussuchen welche Akkorde im Akkord "Pool" sind.
 
 Für den "Level Mode" sind die Dateien Listen!.html, Listen!.css und Listen!.js zuständig. 
 Für den "Custom Mode" Listen!Custom.js und Listen!Custom.html. 
-
+Beide Modi teilen sich eine CSS Datei und die Ordner in denen die Sounds für die Akkorde und Effekte enthalten sind.
 
 
 ## Benutzte Sprachen
@@ -44,10 +44,17 @@ JavaScript
 Projekt herunterladen
 Listen!.html mit Live Server öffnen
 
-## Was ich gelernt habe
+## Was ich gelernt habe 
+Zusatzinformation: Das war mein erstes eigenes Projekt. 
+Davor habe ich Programmier Kenntnisse durch das Modul Medieninformatik beigebracht bekommen, sowie die ersten fünf Kapitel von Eloquent JavaScript durch gearbeitet.
 
-- 
+- Zusammenspiel aus CSS, JavaScript und HTML
+- Debugging mit Console.log
+- Probleme zerlegen
+- Zustände verwalten (sowas wie münzKapital, akkzahl)
+- Zufallslogik
+- Arrays verwenden
+- Audio im Browser benutzen
+- Event-Handling
+- Dynamische HTML-Elemente
 
-asynchrone Abläufe
-Internet Kommunikation: Was sind Port? Was ist HTTP?
-Wie Bibliotheken grundlegend funktionieren
