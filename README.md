@@ -6,6 +6,8 @@ zum Teil versehen mit PayWalls. Deswegen habe ich "Listen!" erstellt. Außerdem 
 
 ## Demo
 
+![Listen! Demo](Listen!.gif)
+
 https://drive.google.com/drive/folders/1TEtbOAFV8COGVGWAaKpLvuCVGwDY4L-w?usp=sharing
 
 ## Nutzung von KI
