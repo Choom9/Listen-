@@ -12,7 +12,7 @@ https://drive.google.com/drive/folders/1TEtbOAFV8COGVGWAaKpLvuCVGwDY4L-w?usp=sha
 
 ## Nutzung von KI
 
-Die kleine Web-App wurde nicht "agentisch" erstellt. Stattdessen habe ich KI wie eine Art "Super Google" oder Tutor benutzt, mit der Anweisung: "Gib mir nicht den ganzen Code sondern erkläre mir Syntax und Konzepte, damit ich lerne und verstehe was ich hier tue". Als ich das Projekt angefangen hatte, waren LLMs auch deutlich schwächer als heute. 
+Die kleine Web-App wurde nicht "agentisch" erstellt. Stattdessen habe ich LLMs wie eine Art "Super Google" oder Tutor benutzt, mit der Anweisung: "Gib mir nicht den ganzen Code sondern erkläre mir Syntax und Konzepte, damit ich lerne und verstehe was ich hier tue". Als ich das Projekt angefangen hatte, waren LLMs auch deutlich schwächer als heute. 
 
 
 ## Funktionen
