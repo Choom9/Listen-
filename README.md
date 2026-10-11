@@ -12,7 +12,7 @@ https://drive.google.com/drive/folders/1TEtbOAFV8COGVGWAaKpLvuCVGwDY4L-w?usp=sha
 
 ## Nutzung von KI
 
-Die kleine Web-App wurde nicht "agentisch" erstellt. Stattdessen habe ich LLMs wie eine Art "Super Google" oder Tutor benutzt, mit der Anweisung: "Gib mir nicht den ganzen Code sondern erkläre mir Syntax und Konzepte, damit ich lerne und verstehe was ich hier tue". Als ich das Projekt angefangen hatte, waren LLMs auch deutlich schwächer als heute. 
+Die kleine Web-App wurde nicht "agentisch" erstellt. Stattdessen habe ich LLMs wie eine Art "Super Google" oder Tutor benutzt, mit der Anweisung: "Gib mir nicht den ganzen Code sondern erkläre mir Syntax und Konzepte, damit ich lerne und verstehe was ich hier tue". Als ich mit dem Projekt angefangen habe, waren LLMs auch deutlich schwächer als heute. 
 
 
 ## Funktionen
@@ -20,10 +20,10 @@ Die kleine Web-App wurde nicht "agentisch" erstellt. Stattdessen habe ich LLMs w
 - Abspielen verschiedener Akkorde
 - Prüfung der Zuordnung mit Feedback
 
-Es gibt 2 "Versionen" zwischen denen man hin und her switchen kann. Custom Mode und Level Mode
+Es gibt 2 "Versionen" zwischen denen man hin und her switchen kann - Custom Mode und Level Mode
 
 Beim Level Mode gibt es im Akkord "Pool" nur 3 Akkorde die abgespielt werden können. Wenn der Spieler 
-10 mal richtig zugeordnet hat, schaltet er den nächsten Akkord frei. So entsteht eine Art Level Progression
+10 mal richtig zugeordnet hat, schaltet er den nächsten Akkord frei. So entsteht eine Art Level Progression.
 
 Beim Custom Mode kann man sich aussuchen welche Akkorde im Akkord "Pool" sind. 
 
