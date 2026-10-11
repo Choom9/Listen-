@@ -2,7 +2,7 @@
 
 Das ganze fing an mit einem konkreten Problem: Ich wollte lernen mit meinem Gehör die gängigsten Gitarren Akkorde in Songs zu erkennen.
 Es gibt einige Apps, die Übungen zu sowas Ähnlichem anbieten, aber viele von ihnen sind überladen mit Funktionen, die ich nicht brauche und
-zum Teil versehen mit PayWalls. Deswegen habe ich "Listen!" erstellt. Außerdem wollte ich meine Programmierfähigkeiten verbessern.
+zum Teil versehen mit Pay-Walls. Deswegen habe ich "Listen!" erstellt. Außerdem wollte ich meine Programmierfähigkeiten verbessern.
 
 ## Demo
 
